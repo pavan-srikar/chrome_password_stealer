@@ -11,7 +11,7 @@ import platform
 import getpass
 
 # Replace these with your Telegram bot token and chat ID
-BOT_TOKEN = '7629673171:AAErN5NBPXYaQRx7_HQLMgRwuYLVzGz9AV0'
+BOT_TOKEN = 'YOUR_BOT_TOKEN'
 CHAT_ID = '2141142912'
 
 # Generate paths for all profiles, including Default

